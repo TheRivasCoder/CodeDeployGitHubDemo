@@ -1,3 +1,8 @@
 #!/bin/bash
-yum install -y httpd
-
+sudo apt update -y
+sudo apt install nginx -y
+sudo apt install python3-pip -y
+pip install flask
+pip install unicodedata2
+pip install pymongo
+pip install bcrypt
