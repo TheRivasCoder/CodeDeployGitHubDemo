@@ -1,5 +1,5 @@
 version: 0.0
 os: linux
 files:
-  - source: /myapp
-    destination: /home/ubuntu/helloworld
+  - source: /app.py
+    destination: /home/ubuntu/
