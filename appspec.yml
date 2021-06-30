@@ -3,3 +3,9 @@ os: linux
 files:
   - source: /myapp
     destination: /home/ubuntu/helloworld/
+hooks:
+  AferInstall:
+    - location: scripts/install_dependencies
+      timeout: 300
+      runas: root
+  
