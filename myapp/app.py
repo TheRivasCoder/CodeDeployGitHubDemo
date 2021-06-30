@@ -12,7 +12,6 @@ db = client.get_database('Restaurant_Rater_Users')
 records = db.register
 groups = db.groups
 
-
 @app.route("/", methods=['post', 'get'])
 def index():
     message = ''
