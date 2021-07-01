@@ -4,7 +4,3 @@ os: linux
 files:
   - source: /index.html
     destination: /var/www/html/
-hooks:
-  AfterInstall:
-    - location: Scripts/start_server
-      timeout: 180
